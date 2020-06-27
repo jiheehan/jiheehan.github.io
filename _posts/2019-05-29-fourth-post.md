@@ -1,6 +1,8 @@
 ---
 title: "Condition for Recursive Function"
 date: 2019-05-29 
+permalink: /posts/
+author_profile: true
 categories: programming
 ---
 When we make a recursive function, These 2 conditions will be satisfied.
