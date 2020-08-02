@@ -35,14 +35,14 @@ Google Inc.
     1x1 convolution to combine the outputs the depthwise convolution
 * Computational cost   
     Standard convolution: D<sub>K</sub> x D<sub>K</sub> x M x N x D<sub>F</sub> x D<sub>F</sub>
-    > depends multicatively on the number of input channels, the number of output channels, the kernel size and the feature map size    
+    > depends multicatively on the number of input channels, the number of output channels, the kernel size and the feature map size          
     Depthwise separable convolution: D<sub>K</sub> x D<sub>K</sub> x M x D<sub>F</sub> x D<sub>F</sub> + M x N x D<sub>F</sub> x D<sub>F</sub>   
      * D<sub>K</sub>: spatial width, height of a kernel
      * D<sub>F</sub>: spatial width, height of a square input feature map
      * M: number of input channels
      * N: number of output channels
      
- <center><img src="/assets/images/mobilenet_v1/mbn2.png" width="80%" height="80%"></img></center>
+ <center><img src="/assets/images/mobilenet_v1/mbn2.PNG" width="80%" height="80%"></img></center>
 
 2. Network Structure and Training
  * The MobileNet structure is built on depthwise separable convolutions as mentioned in the previous section except for the first layer which is a full convolution   
