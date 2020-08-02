@@ -4,6 +4,7 @@ date: 2020-05-03 14:43:28
 permalink: /posts/
 author_profile: true
 categories: DeepLearning
+use_math: true
 ---
 MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications
 =============
