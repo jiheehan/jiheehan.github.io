@@ -21,13 +21,21 @@ Google Inc.
 
 # [MobileNet Architecture]
 1. Depthwise separable convolution
-> The MobileNet model is based on depthwise separable convolutions which is a form of factorized convolutions which factorize a standard convolution into a depthwise convolution and a 1x1 convolution called a pointwise convolution
+# The MobileNet model is based on depthwise separable convolutions which is a form of factorized convolutions which factorize a standard convolution into a depthwise convolution and a 1x1 convolution called a pointwise convolution
 2. Network structure and training
 3. Width multiplier: Thinner models
-> Although the base MobileNet architecture is already small and low latency, many times a specific use case or application may require the model to be smaller and faster
+# Although the base MobileNet architecture is already small and low latency, many times a specific use case or application may require the model to be smaller and faster
 4. Resolution multiplier: Reduced representation
 
-> 1. Depthwise Separable Convolution
-> > * Standard convolution -> Depthwise convolution + Pointwise convolution
-> > * Depthwise convolution
-> > > Apply a single filter to each input channel
+## 1. Depthwise Separable Convolution
+### * Standard convolution -> Depthwise convolution + Pointwise convolution
+### * Depthwise convolution 
+#### Apply a single filter to each input channel
+### * Pointwise convolution
+#### 1x1 convolution to combine the outputs the depthwise convolution
+### * Computational cost
+#### Standard convolution: 
+#### Depthwise separable convolution:   
+
+## 2. Network Structure and Training
+### * The MobileNet structure is built on depthwise separable convolutions as mentioned in the previous section except for the first layer which is a full convolution
