@@ -17,7 +17,7 @@ Google Inc.
 * Focus on optimizing for latency but also yield small networks
   * Many papers on small networks focus only on size but do not consider
   
-       <center><img src="/assets/images/mobilenet_v1/mbn1.png" width="100%" height="100%"></img></center>
+       <center><img src="/assets/images/mobilenet_v1/mbn1.png" width="50%" height="50%"></img></center>
 
 # [MobileNet Architecture]
 1. Depthwise separable convolution
@@ -35,7 +35,7 @@ Google Inc.
     1x1 convolution to combine the outputs the depthwise convolution
 * Computational cost   
     Standard convolution: D<sub>K</sub> x D<sub>K</sub> x M x N x D<sub>F</sub> x D<sub>F</sub>
-    > depends multicatively on the number of input channels, the number of output channels, the kernel size and the feature map size              
+    > depends multicatively on the number of input channels, the number of output channels, the kernel size and the feature map size    
     Depthwise separable convolution: D<sub>K</sub> x D<sub>K</sub> x M x D<sub>F</sub> x D<sub>F</sub> + M x N x D<sub>F</sub> x D<sub>F</sub>       
      * D<sub>K</sub>: spatial width, height of a kernel
      * D<sub>F</sub>: spatial width, height of a square input feature map
@@ -50,7 +50,6 @@ Google Inc.
  * A final average pooling reduces the spatial resolution to 1 before the finally connected layer
  * Counting depthwise and pointwise convolutions as separable layers, MobileNet has 28 layers
  
-    <center><img src="/assets/images/mobilenet_v1/mbn3.png" width="50%" height="50%"></img>
-    <img src="/assets/images/mobilenet_v1/mbn4.png" width="50%" height="50%"></img></center>
+    <center><img src="/assets/images/mobilenet_v1/mbn3_4.PNG" width="70%" height="70%"></img></center>
     
 
