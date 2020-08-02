@@ -20,7 +20,7 @@ Google Inc.
     <center><img src="/assets/images/mobilenet_v1/mbn1.png" width="70%" height="70%"></center>
 
 # [MobileNet Architecture]
-1. Depthwise Separable Convolution
+## 1. Depthwise Separable Convolution
 > The MobileNet model is based on depthwise separable convolutions which is a form of factorized convolutions which factorize a standard convolution into a depthwise convolution and a 1x1 convolution called a pointwise convolution
 
 
@@ -41,7 +41,7 @@ Google Inc.
      
         <center><img src="/assets/images/mobilenet_v1/mbn2.PNG" width="100%" height="100%"></center>
 
-2. Network Structure and Training
+## 2. Network Structure and Training
  * The MobileNet structure is built on depthwise separable convolutions as mentioned in the previous section except for the first layer which is a full convolution   
  * All layers are followed by a batchnorm and ReLU nonlinearity with the exception of the final fully connected layer which has no nonlinearity and feeds into a softmax layer for classification
  * A final average pooling reduces the spatial resolution to 1 before the finally connected layer
@@ -59,7 +59,7 @@ Google Inc.
  * 1x1 convolution do not require this reordering in memory and can be implemented directly with GEMM which is one of the most optimized numerical linear algebra algorithms (Contrary to training large models)    
  * Use less regularization and data augmentation techniques because small models have less trouble with overfitting
     
-3. Width Multiplier: Thinner Models
+## 3. Width Multiplier: Thinner Models
 > Although the base MobileNet architecture is already small and low latency, many times a specific use case or application may require the model to be smaller and faster
 
  * In order to construct smaller and less computationally expensive models, introduce a parameter $alpha$   
@@ -69,7 +69,7 @@ Google Inc.
      : D<sub>K</sub> x D<sub>K</sub> x \alpha M x D<sub>F</sub> x D<sub>F</sub> + \alpha M x \alpha N x D<sub>F</sub> x D<sub>F</sub>    
  * Width multiplier has the effect of reducing computational cost and the number of parameters quadratically by roughly \alpha<sup>2</sup>
 
-4. Resolution Multiplier: Reduced Representation
+## 4. Resolution Multiplier: Reduced Representation
 * The second hyperparameter to reduce the computational cost of a neural network is a resolution multiplier \rho
 * Apply \ to input image and the internal representation of every layer is subsequently reduced by the same multiplier
 * Computational cost of the core layers of network as depthwise separable convolutions with width multiplier \alpha and resolution multiplier \rho
