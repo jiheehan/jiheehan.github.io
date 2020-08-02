@@ -17,7 +17,7 @@ Google Inc.
 * Focus on optimizing for latency but also yield small networks
   * Many papers on small networks focus only on size but do not consider
 
-<center><img src="/assets/images/mobilenet_v1/mbn1.png" width="80%" height="80%"></img></center>
+ <center><img src="/assets/images/mobilenet_v1/mbn1.png" width="80%" height="80%"></img></center>
 
 # [MobileNet Architecture]
 1. Depthwise separable convolution
@@ -41,9 +41,14 @@ Google Inc.
      * D<sub>F</sub>: spatial width, height of a square input feature map
      * M: number of input channels
      * N: number of output channels
+     
+ <center><img src="/assets/images/mobilenet_v1/mbn2.png" width="80%" height="80%"></img></center>
 
 2. Network Structure and Training
  * The MobileNet structure is built on depthwise separable convolutions as mentioned in the previous section except for the first layer which is a full convolution   
  * All layers are followed by a batchnorm and ReLU nonlinearity with the exception of the final fully connected layer which has no nonlinearity and feeds into a softmax layer for classification
  * A final average pooling reduces the spatial resolution to 1 before the finally connected layer
  * Counting depthwise and pointwise convolutions as separable layers, MobileNet has 28 layers
+ 
+ <center><img src="/assets/images/mobilenet_v1/mbn3.png" width="80%" height="80%"></img></center>
+
