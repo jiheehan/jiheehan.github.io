@@ -17,7 +17,7 @@ Google Inc.
 * Focus on optimizing for latency but also yield small networks
   * Many papers on small networks focus only on size but do not consider
   
-       <center><img src="/assets/images/mobilenet_v1/mbn1.png" width="50%" height="50%"></img></center>
+    <center><img src="/assets/images/mobilenet_v1/mbn1.png" width="70%" height="70%"></img></center>
 
 # [MobileNet Architecture]
 1. Depthwise separable convolution
@@ -36,6 +36,7 @@ Google Inc.
 * Computational cost   
     Standard convolution: D<sub>K</sub> x D<sub>K</sub> x M x N x D<sub>F</sub> x D<sub>F</sub>
     > depends multicatively on the number of input channels, the number of output channels, the kernel size and the feature map size    
+    
     Depthwise separable convolution: D<sub>K</sub> x D<sub>K</sub> x M x D<sub>F</sub> x D<sub>F</sub> + M x N x D<sub>F</sub> x D<sub>F</sub>       
      * D<sub>K</sub>: spatial width, height of a kernel
      * D<sub>F</sub>: spatial width, height of a square input feature map
