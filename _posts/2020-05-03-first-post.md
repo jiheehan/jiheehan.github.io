@@ -51,6 +51,9 @@ Google Inc.
  * A final average pooling reduces the spatial resolution to 1 before the finally connected layer
  * Counting depthwise and pointwise convolutions as separable layers, MobileNet has 28 layers
  
-    <center><img src="/assets/images/mobilenet_v1/mbn3_4.PNG" width="70%" height="70%"></img></center>
+    <center><img src="/assets/images/mobilenet_v1/mbn3_4.PNG" width="100%" height="100%"></img></center>
     
+    
+3. Width Multiplier: Thinner Models
+ * In order to construct smaller and less computationally expensive models, introduce a parameter \alpha 
 
