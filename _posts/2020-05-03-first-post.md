@@ -73,12 +73,12 @@ $$\alpha$$
  * Width multiplier has the effect of reducing computational cost and the number of parameters quadratically by roughly \alpha<sup>2</sup>
 
 4. Resolution Multiplier: Reduced Representation
-* The second hyperparameter to reduce the computational cost of a neural network is a resolution multiplier \
+* The second hyperparameter to reduce the computational cost of a neural network is a resolution multiplier \rho
 * Apply \ to input image and the internal representation of every layer is subsequently reduced by the same multiplier
-* Computational cost of the core layers of network as depthwise separable convolutions with width multiplier \alpha and resolution multiplier \
-  : D<sub>K</sub> x D<sub>K</sub> x \alpha M x \ D<sub>F</sub> x \ D<sub>F</sub> + \alpha M x \alpha N x \ D<sub>F</sub> x \ D<sub>F</sub>
-   where \ which is typically set implicitly so that the input resolution of the network is 224, 192, 160 or 128
-* Resolution multiplier has the effect of reducing computational cost by \<sup>2</sup>
+* Computational cost of the core layers of network as depthwise separable convolutions with width multiplier \alpha and resolution multiplier \rho
+  : D<sub>K</sub> x D<sub>K</sub> x \alpha M x \rho D<sub>F</sub> x \rho D<sub>F</sub> + \alpha M x \alpha N x \rho D<sub>F</sub> x \rho D<sub>F</sub>
+   where \rho which is typically set implicitly so that the input resolution of the network is 224, 192, 160 or 128
+* Resolution multiplier has the effect of reducing computational cost by \rho<sup>2</sup>
 
 # [Experiments]
 * Model choices
