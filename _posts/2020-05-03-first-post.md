@@ -9,11 +9,11 @@ MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applicatio
 =============
 Andrew G. Howard, Menglong Zhu, Bo Chen, Dmitry Kalenichenko, Weijun Wang, Tobias Weyand, Marcj Andreetto, Hartwig Adam
 Google Inc.
--------------
 
-#[introduction]
+
+# [introduction]
 * Propose  a streamlined architecture that uses depthwise separable convolutions to build light weight deep neural networks and two simple global hyperparameters that efficiently trade off between latency and accuracy
 * A class of efficient models called MobileNets for mobile and embedded vision applications
 * Focus on optimizing for latency but also yield small networks
   * Many papers on small networks focus only on size but do not consider
-
+![Alt text](/assets/images/mobilenet_v1/mbn1.png)
