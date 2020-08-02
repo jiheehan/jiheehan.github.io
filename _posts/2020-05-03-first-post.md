@@ -55,5 +55,10 @@ Google Inc.
     
     
 3. Width Multiplier: Thinner Models
- * In order to construct smaller and less computationally expensive models, introduce a parameter \alpha 
+ * In order to construct smaller and less computationally expensive models, introduce a parameter &alpha   
+ * The role of the width multiplier &alpha is to thin a network uniformly at each layer
+ * For a given layer and width multiplier &alpha, the number of input channels M becomes &alpha M and the numver of output channels N becomes &alpha N
+ * Computational Cost of a depthwise separable convolution with width multiplier &alpha    
+     : D<sub>K</sub> x D<sub>K</sub> x &alpha M x D<sub>F</sub> x D<sub>F</sub> + &alpha M x &alpha N x D<sub>F</sub> x D<sub>F</sub>    
+ * Width multiplier has the effect of reducing computational cost and the number of parameters quadratically by roughly &alpha<sup>2</sup>
 
