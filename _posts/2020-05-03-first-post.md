@@ -62,7 +62,7 @@ Google Inc.
 3. Width Multiplier: Thinner Models
 > Although the base MobileNet architecture is already small and low latency, many times a specific use case or application may require the model to be smaller and faster
 
- * In order to construct smaller and less computationally expensive models, introduce a parameter $$\alpha$$   
+ * In order to construct smaller and less computationally expensive models, introduce a parameter $$ \alpha $$   
  * The role of the width multiplier &alpha is to thin a network uniformly at each layer
  * For a given layer and width multiplier &alpha, the number of input channels M becomes \alpha M and the numver of output channels N becomes &alpha N
  * Computational Cost of a depthwise separable convolution with width multiplier &alpha    
