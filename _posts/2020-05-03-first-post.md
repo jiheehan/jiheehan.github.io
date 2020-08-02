@@ -17,7 +17,7 @@ Google Inc.
 * Focus on optimizing for latency but also yield small networks
   * Many papers on small networks focus only on size but do not consider
   
-    <center><img src="/assets/images/mobilenet_v1/mbn1.png" width="70%" height="70%"></img></center>
+    <center><img src="/assets/images/mobilenet_v1/mbn1.png" width="70%" height="70%"></center>
 
 # [MobileNet Architecture]
 1. Depthwise Separable Convolution
@@ -39,7 +39,7 @@ Google Inc.
      * M: number of input channels
      * N: number of output channels
      
-        <center><img src="/assets/images/mobilenet_v1/mbn2.PNG" width="100%" height="100%"></img></center>
+        <center><img src="/assets/images/mobilenet_v1/mbn2.PNG" width="100%" height="100%"></center>
 
 2. Network Structure and Training
  * The MobileNet structure is built on depthwise separable convolutions as mentioned in the previous section except for the first layer which is a full convolution   
