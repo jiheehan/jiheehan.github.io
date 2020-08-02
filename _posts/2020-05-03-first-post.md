@@ -7,7 +7,7 @@ categories: DeepLearning
 ---
 MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications
 =============
-Andrew G. Howard, Menglong Zhu, Bo Chen, Dmitry Kalenichenko, Weijun Wang, Tobias Weyand, Marcj Andreetto, Hartwig Adam
+Andrew G. Howard, Menglong Zhu, Bo Chen, Dmitry Kalenichenko, Weijun Wang, Tobias Weyand, Marcj Andreetto, Hartwig Adam   
 Google Inc.
 
 
@@ -17,3 +17,4 @@ Google Inc.
 * Focus on optimizing for latency but also yield small networks
   * Many papers on small networks focus only on size but do not consider
 ![Alt text](/assets/images/mobilenet_v1/mbn1.png)
+<img src="/assets/images/mobilenet_v1/mbn1.png" width="70%" height="70%"></img>
