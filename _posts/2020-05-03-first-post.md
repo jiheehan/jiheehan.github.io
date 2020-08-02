@@ -17,14 +17,14 @@ Google Inc.
 * Focus on optimizing for latency but also yield small networks
   * Many papers on small networks focus only on size but do not consider
 
-<img src="/assets/images/mobilenet_v1/mbn1.png" width="70%" height="70%"></img>
+<center><img src="/assets/images/mobilenet_v1/mbn1.png" width="70%" height="70%"></img></center>
 
 # [MobileNet Architecture]
 1. Depthwise separable convolution
-# The MobileNet model is based on depthwise separable convolutions which is a form of factorized convolutions which factorize a standard convolution into a depthwise convolution and a 1x1 convolution called a pointwise convolution
+> The MobileNet model is based on depthwise separable convolutions which is a form of factorized convolutions which factorize a standard convolution into a depthwise convolution and a 1x1 convolution called a pointwise convolution
 2. Network structure and training
 3. Width multiplier: Thinner models
-# Although the base MobileNet architecture is already small and low latency, many times a specific use case or application may require the model to be smaller and faster
+> Although the base MobileNet architecture is already small and low latency, many times a specific use case or application may require the model to be smaller and faster
 4. Resolution multiplier: Reduced representation
 
 ## 1. Depthwise Separable Convolution
@@ -34,7 +34,7 @@ Google Inc.
 ### * Pointwise convolution
 #### 1x1 convolution to combine the outputs the depthwise convolution
 ### * Computational cost
-#### Standard convolution: 
+#### Standard convolution: D<sub>K</sub> x D<sub>K</sub>
 #### Depthwise separable convolution:   
 
 ## 2. Network Structure and Training
