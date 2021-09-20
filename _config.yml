@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "JH Tech Blog - challenge tracker"
+title                    : ""
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Jihee Han"
@@ -93,7 +93,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ji-Hee Han"
+  name             : "Jihee Han"
   avatar           : "/assets/images/han.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Contact me: jihee1651@gmail.com"
   location         : "South Korea"
