@@ -32,4 +32,3 @@ layout: single
 
 ## Contact
 jihee1651@gmail.com
-jihee1651@naver.com
