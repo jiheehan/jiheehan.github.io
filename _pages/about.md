@@ -25,10 +25,10 @@ layout: single
 * OpenCV
 
 ## Fields of Interest
-Computer Vision  
-Image Processing  
-Deep Learing  
-Autonomous Driving
+* Computer Vision  
+* Image Processing  
+* Deep Learing  
+* Autonomous Driving
 
 ## Contact
-jihee1651@gmail.com/naver.com
+jihee1651@gmail.com
