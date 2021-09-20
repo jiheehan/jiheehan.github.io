@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "JH Tech Blog"
+title                    : "JH Tech Blog - challenge tracker"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Ji-Hee Han"
+name                     : "Jihee Han"
 description              : "Computer Vision, Image Processing, Autonomous Driving"
 url                      : "https://jiheehan.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
