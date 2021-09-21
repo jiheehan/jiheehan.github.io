@@ -9,9 +9,7 @@ layout: single
 
 ## Experience
 * Autonomous Driving Research Engineer, Hyundai Motor Company (Image Recognition field)
-{: .text-left }
-July. 2019 ~ Current
-{: .text-right }  
+{: .text-left }July. 2019 ~ Current{: .text-right }  
 * Intern, Hyundai Motor Company
 {: .text-left }
 Jan. 2019 ~ Feb. 2019
