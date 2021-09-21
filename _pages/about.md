@@ -14,7 +14,7 @@ layout: single
  
 ## Achievements
 * Bronz Prize in the 9st Capstone Design Competition, Konkuk University
-{: .text-left } 
+{: .text-left }
 Nov. 2017
 {: .text-right }
 * Scholarship for Academic Excellence (2 Semesters)
