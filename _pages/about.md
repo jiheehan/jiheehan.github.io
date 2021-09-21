@@ -13,15 +13,23 @@ layout: single
 * Dec. 2017 ~ Nov. 2018: Undergraduate Researcher, Deep Computer Vision Laboratory in Konkuk University
  
 ## Achievements
-* Nov. 2017, Bronz Prize in the 9st Capstone Design Competition, Konkuk University
-* Spring/Fall. 2018, Scholarship for Academic Excellence (2 Semesters)
-* Nov. 2018, Excellnt Paper Award, The Korean Institute of Broadcast and Media Engineers (Fall Season Conference)
-* Jan. 2021, Grand Prize in the 11st Idea Festival, Hyundai Motor Company
-
-* Bronze Prize in the 9st Capstone Design Competition, Konkuk University
+* Bronz Prize in the 9st Capstone Design Competition, Konkuk University
 {: .text-left } 
-* Nov. 2017
+Nov. 2017
 {: .text-right }
+* Scholarship for Academic Excellence (2 Semesters)
+{: .text-left }
+Spring/Fall. 2018
+{: .text-right }
+* Excellnt Paper Award, The Korean Institute of Broadcast and Media Engineers (Fall Season Conference)
+{: .text-left }
+Nov. 2018
+{: .text-right }
+* Grand Prize in the 11st Idea Festival, Hyundai Motor Company
+{: .text-left }
+Jan. 2021
+{: .text-right }
+
 ## Relevant Skills
 * Language: C/C++, Python, C#
 * Library: OpenCV, PyTorch, TensorFlow
