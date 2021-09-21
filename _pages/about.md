@@ -23,7 +23,7 @@ layout: single
 * Python
 * C#
 * OpenCV
-* PyTorch/ TensorFlow
+* PyTorch/TensorFlow
 
 ## Fields of Interest
 * Computer Vision  
