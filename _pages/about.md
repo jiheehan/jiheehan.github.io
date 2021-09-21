@@ -8,9 +8,9 @@ layout: single
 * Aug. 2019, B.S., Department of Electronic Engineering, Konkuk University
 
 ## Experience
-* Dec. 2017 ~ Nov. 2018: Undergraduate Researcher, Deep Computer Vision Laboratory in Konkuk University
-* Jan. 2019 ~ Feb. 2019: Intern, Hyundai Motor Company
 * July. 2019 ~ Current: Autonomous Driving Research Engineer, Hyundai Motor Company (Image Recognition field)
+* Jan. 2019 ~ Feb. 2019: Intern, Hyundai Motor Company
+* Dec. 2017 ~ Nov. 2018: Undergraduate Researcher, Deep Computer Vision Laboratory in Konkuk University
  
 ## Achievements
 * Nov. 2017, Bronz Prize in the 9st Capstone Design Competition, Konkuk University
@@ -23,6 +23,7 @@ layout: single
 * Python
 * C#
 * OpenCV
+* PyTorch/ TensorFlow
 
 ## Fields of Interest
 * Computer Vision  
