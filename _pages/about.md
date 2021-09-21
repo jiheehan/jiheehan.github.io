@@ -5,7 +5,7 @@ layout: single
 ---
 
 ## Education
-* Aug. 2019, B.S., Department of Electrical Engineering, Konkuk University
+* Aug. 2019, B.S., Department of Electronic Engineering, Konkuk University
 
 ## Experience
 * Dec. 2017 ~ Nov. 2018: Undergraduate Researcher, Deep Computer Vision Laboratory in Konkuk University
