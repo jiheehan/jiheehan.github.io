@@ -5,7 +5,10 @@ layout: single
 ---
 
 ## Education
-* Aug. 2019, B.S., Department of Electronic Engineering, Konkuk University
+* B.S., Department of Electronic Engineering, Konkuk University
+{: .text-left }
+Aug. 2019
+{: .text-right }
 
 ## Experience
 * Autonomous Driving Research Engineer, Hyundai Motor Company (Image Recognition field)
