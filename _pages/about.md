@@ -25,21 +25,21 @@ Dec. 2017 ~ Nov. 2018
 {: .text-right }
 
 ## Achievements
-* Bronz Prize in the 9st Capstone Design Competition, Konkuk University
+* Grand Prize in the 11st Idea Festival, Hyundai Motor Company
 {: .text-left }
-Nov. 2017
-{: .text-right }
-* Scholarship for Academic Excellence (2 Semesters)
-{: .text-left }
-Spring/Fall. 2018
+Jan. 2021
 {: .text-right }
 * Excellnt Paper Award, The Korean Institute of Broadcast and Media Engineers (Fall Season Conference)
 {: .text-left }
 Nov. 2018
 {: .text-right }
-* Grand Prize in the 11st Idea Festival, Hyundai Motor Company
+* Scholarship for Academic Excellence (2 Semesters)
 {: .text-left }
-Jan. 2021
+Spring/Fall. 2018
+{: .text-right }
+* Bronz Prize in the 9st Capstone Design Competition, Konkuk University
+{: .text-left }
+Nov. 2017
 {: .text-right }
 
 ## Relevant Skills
