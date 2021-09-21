@@ -11,7 +11,7 @@ Aug. 2019
 {: .text-right }
 
 ## Experience
-* Autonomous Driving Research Engineer, Hyundai Motor Company (Image Recognition field)
+* Autonomous Driving Research Engineer, Hyundai Motor Company (Image Recognition Field)
 {: .text-left }
 July. 2019 ~ Current
 {: .text-right }  
