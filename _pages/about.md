@@ -18,7 +18,10 @@ layout: single
 * Nov. 2018, Excellnt Paper Award, The Korean Institute of Broadcast and Media Engineers (Fall Season Conference)
 * Jan. 2021, Grand Prize in the 11st Idea Festival, Hyundai Motor Company
 
-* Bronze Prize in the 9st Capstone Design Competition, Konkuk University{: .text-left } Nov. 2017{: .text-right }
+* Bronze Prize in the 9st Capstone Design Competition, Konkuk University
+{: .text-left } 
+* Nov. 2017
+{: .text-right }
 ## Relevant Skills
 * Language: C/C++, Python, C#
 * Library: OpenCV, PyTorch, TensorFlow
