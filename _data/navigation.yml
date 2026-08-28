@@ -1,9 +1,12 @@
-# main links
 main:
-  - title : "About"
-    url: /about/
-  - title : "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
+  - title: "Home"
+    url: /
 
+  - title: "About"
+    url: /about/
+
+  - title: "GitHub"
+    url: "https://github.com/jiheehan"
+
+  - title: "LinkedIn"
+    url: "https://www.linkedin.com/in/jihee-han-410459212"
