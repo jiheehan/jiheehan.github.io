@@ -5,13 +5,17 @@ layout: single
 author_profile: true
 ---
 
-I am a robotics perception and machine learning engineer specializing in
-computer vision, autonomous driving, 3D geometry, and production-oriented
-ML systems.
+I am a Master's student in Autonomy and Robotics at the University of Illinois
+Urbana-Champaign with seven years of industry experience in autonomous-driving
+perception and learning-based autonomy at Hyundai Motor Company.
 
-Before beginning my graduate studies, I worked for seven years as a Research
-Engineer at Hyundai Motor Company, developing and validating camera-based
-perception systems for autonomous-driving and ADAS applications.
+My industry experience spans production-oriented L2 perception, real-time
+system integration, 3D localization, sim-to-real learning, scalable ML data
+pipelines, and more recent work on end-to-end autonomous-driving systems.
+
+At UIUC, I am expanding this background toward broader robotics, with particular
+interests in 3D/4D scene understanding, world modeling, multimodal foundation
+models, and embodied autonomy.
 
 ## Education
 
