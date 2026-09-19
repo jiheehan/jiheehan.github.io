@@ -6,11 +6,12 @@ minimal_mistakes_skin: "default"
 locale: "en-US"
 title: "Jihee Han"
 title_separator: "-"
-subtitle: "Robotics Perception & Machine Learning"
+subtitle: "Autonomous Systems, 3D Vision & Machine Learning"
 name: "Jihee Han"
 description: >
-  Robotics perception and machine learning engineer specializing in
-  computer vision, autonomous driving, 3D geometry, and ML systems.
+  Autonomous systems and machine learning engineer with seven years of
+  industry experience in autonomous-driving perception, 3D vision,
+  learning-based autonomy, and real-world ML systems.
 url: "https://jiheehan.github.io"
 baseurl: ""
 repository: "jiheehan/jiheehan.github.io"
@@ -32,7 +33,9 @@ author:
   name: "Jihee Han"
   avatar: "/assets/images/han.jpg"
   bio: >
-    M.Eng. student in Autonomy and Robotics at UIUC with seven years of experience in autonomous-driving perception at Hyundai Motor Company.
+    Master's student in Autonomy and Robotics at UIUC with seven years of
+    industry experience in autonomous-driving perception and learning-based
+    autonomy at Hyundai Motor Company.
   location: "Champaign, IL"
   email: "jiheeh2@illinois.edu"
   links:
