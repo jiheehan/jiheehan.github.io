@@ -23,21 +23,17 @@ models, and embodied autonomy.
 *Master of Engineering in Autonomy and Robotics*  
 Aug 2026 – Expected Dec 2027
 
-Relevant coursework: Computer Vision, Applied Machine Learning, Principles
-of Safe Autonomy
-
 **Georgia Institute of Technology** — Remote  
 *Online Master's Coursework in Computer Science*  
 Aug 2025 – May 2026
-
-Relevant coursework: Robotics: AI Techniques
 
 **Konkuk University** — Seoul, South Korea  
 *Bachelor of Science in Electronics Engineering*  
 Mar 2015 – Aug 2019
 
-Relevant coursework: Artificial Intelligence, Image Processing, Digital
-Signal Processing
+
+Relevant coursework: Principles
+of Safe Autonomy, Applied Machine Learning, Computer Vision, Artificial Intelligence
 
 ## Experience
 
